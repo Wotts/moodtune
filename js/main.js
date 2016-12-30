@@ -14,10 +14,14 @@ $(document).ready (function(){
         var artistArray = artistResult.artists;
         var randomNum = Math.floor((Math.random()*50));
 
-        console.log(artistArray.items[randomNum]);
+        var uri = artistArray.items[randomNum].uri;
+        var url = "https://embed.spotify.com/?uri=" + uri;
+        console.log(url);
+
+        $("iframe").attr("src", url);
     }
 
-    $(".row div").on("click", function(){
+    $(".col-md-9 .row div").on("click", function(){
         var genre = $(this).attr("data-attr");
         console.log(genre);
 

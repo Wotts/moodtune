@@ -5,6 +5,10 @@ body {
         div {
             height: 100%;
 
+            iframe {
+                height: 100vh;
+            }
+
             &#pop {
                 background-color: blue;
             }
