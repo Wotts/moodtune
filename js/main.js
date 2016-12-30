@@ -14,7 +14,7 @@ $(document).ready (function(){
         var artistArray = artistResult.artists;
         var randomNum = Math.floor((Math.random()*50));
 
-        var uri = artistArray.items[randomNum].uri;
+        var uri = artistArray.items[math.min(randomNum, artistArray.items.length-1)].uri;
         var url = "https://embed.spotify.com/?uri=" + uri;
         console.log(url);
 
