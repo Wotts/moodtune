@@ -1,0 +1,17 @@
+body {
+    .row {
+        height: 25vh;
+
+        div {
+            height: 100%;
+
+            &#pop {
+                background-color: blue;
+            }
+
+            &#progressive-metal {
+                background-color: red;
+            }
+        }
+    }
+}

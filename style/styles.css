@@ -1,0 +1,10 @@
+body .row {
+  height: 25vh; }
+  body .row div {
+    height: 100%; }
+    body .row div#pop {
+      background-color: blue; }
+    body .row div#progressive-metal {
+      background-color: red; }
+
+/*# sourceMappingURL=styles.css.map */
