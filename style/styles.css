@@ -1,12 +1,35 @@
-body .row {
-  height: 25vh; }
-  body .row div {
-    height: 100%; }
-    body .row div iframe {
-      height: 100vh; }
-    body .row div#pop {
-      background-color: blue; }
-    body .row div#progressive-metal {
-      background-color: red; }
+body {
+  margin: 0;
+  padding: 0; }
+  body .row {
+    height: 25vh; }
+    body .row div {
+      height: 100%; }
+      body .row div iframe {
+        height: 100vh; }
+      body .row div#pop {
+        background-color: blue; }
+      body .row div#jazz {
+        background-color: purple; }
+      body .row div#chamber-pop {
+        background-color: beige; }
+      body .row div#progressive-metal {
+        background-color: red; }
+      body .row div#edm {
+        background-color: yellow; }
+      body .row div#nu-metal {
+        background-color: black; }
+      body .row div#drum-and-bass {
+        background-color: green; }
+      body .row div#soul {
+        background-color: magenta; }
+      body .row div#singer-songwriter {
+        background-color: orange; }
+      body .row div#rap {
+        background-color: brown; }
+      body .row div#rnb {
+        background-color: #854f08; }
+      body .row div#trance {
+        background-color: #14655d; }
 
 /*# sourceMappingURL=styles.css.map */
