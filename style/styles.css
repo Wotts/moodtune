@@ -1,48 +1,74 @@
 #pop {
-  background-color: #0044aa; }
+  background-color: #0044aa;
+  border: solid white 3px;
+  border-radius: 20px; }
 
 #jazz {
-  background-color: #6200a6; }
+  background-color: #6200a6;
+  border: solid white 3px;
+  border-radius: 20px; }
 
 #chamber-pop {
-  background-color: beige; }
+  background-color: #fbffc7;
+  border: solid white 3px;
+  border-radius: 20px; }
 
 #progressive-metal {
-  background-color: #960000; }
+  background-color: #960000;
+  border: solid white 3px;
+  border-radius: 20px; }
 
 #edm {
-  background-color: #8f9f25; }
+  background-color: #8f9f25;
+  border: solid white 3px;
+  border-radius: 20px; }
 
 #nu-metal {
-  background-color: #1e1e1e; }
+  background-color: #323232;
+  border: solid white 3px;
+  border-radius: 20px; }
 
 #drum-and-bass {
-  background-color: green; }
+  background-color: green;
+  border: solid white 3px;
+  border-radius: 20px; }
 
 #soul {
-  background-color: #83349d; }
+  background-color: #83349d;
+  border: solid white 3px;
+  border-radius: 20px; }
 
 #singer-songwriter {
-  background-color: orange; }
+  background-color: orange;
+  border: solid white 3px;
+  border-radius: 20px; }
 
 #rap {
-  background-color: brown; }
+  background-color: brown;
+  border: solid white 3px;
+  border-radius: 20px; }
 
 #rnb {
-  background-color: #854f08; }
+  background-color: #854f08;
+  border: solid white 3px;
+  border-radius: 20px; }
 
 #lounge {
-  background-color: #14655d; }
+  background-color: #14655d;
+  border: solid white 3px;
+  border-radius: 20px; }
 
 body {
   margin: 0;
   padding: 0; }
   body .row {
-    height: 25vh; }
+    height: 25vh;
+    margin: 0;
+    padding: 0; }
     body .row div {
+      margin: 0;
+      padding: 0;
       height: 100%;
-      border: solid white 3px;
-      border-radius: 20px;
       text-align: center; }
       body .row div h1 {
         padding-top: 30vh; }

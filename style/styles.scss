@@ -6,11 +6,13 @@ body {
 
     .row {
         height: 25vh;
+        margin: 0;
+        padding: 0;
 
         div {
+            margin: 0;
+            padding: 0;
             height: 100%;
-            border: solid white 3px;
-            border-radius: 20px;
             text-align: center;
 
             h1 {
