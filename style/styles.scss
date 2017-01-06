@@ -12,54 +12,7 @@ body {
                 height: 100vh;
             }
 
-            &#pop {
-                background-color: blue;
-            }
-
-            &#jazz {
-                background-color: purple;
-            }
-
-            &#chamber-pop {
-                background-color: beige;
-            }
-
-            &#progressive-metal {
-                background-color: red;
-            }
-
-            &#edm {
-                background-color: yellow;
-            }
-
-            &#nu-metal {
-                background-color: black;
-            }
-
-			&#drum-and-bass {
-				background-color: green;
-			}
-
-            &#soul {
-                background-color: magenta;
-            }
-
-            &#singer-songwriter {
-                background-color: orange;
-            }
-
-            &#rap {
-                background-color: brown;
-            }
-
-            &#rnb {
-                background-color: rgb(133, 79, 8);
-            }
-
-            &#lounge {
-                background-color: rgb(20, 101, 93);
-            }
-
+            @import 'genre';
 
         }
     }
