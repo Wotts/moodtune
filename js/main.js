@@ -12,12 +12,13 @@ $(document).ready (function(){
         $("iframe").attr("src", url).removeClass("hidden");
         $("h1").addClass("hidden");
 
-        if uri = "spotify:artist:0CEFCo8288kQU7mJi25s6E" {
-            getArtist;
+        if (uri == "spotify:artist:0CEFCo8288kQU7mJi25s6E") {
+            console.log("fuck");
+            artistSucces(artistResult);
         }
     }
 
-    $(".col-md-9 .row div").on("click", function getArtist(){
+    $(".col-md-9 .row div").on("click", function(){
         var genre = $(this).attr("data-attr");
 
         $.ajax({
