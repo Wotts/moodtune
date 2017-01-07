@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import 'genre';
 
 body {
@@ -17,6 +18,7 @@ body {
                 top: 50vh;
                 display: table-cell;
                 vertical-align: middle;
+                font-family: 'Montserrat', sans-serif;
             }
 
             iframe {
