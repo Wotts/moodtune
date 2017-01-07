@@ -9,14 +9,14 @@ body {
         margin: 0;
         padding: 0;
 
-        div {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            text-align: center;
+        .framediv {
+            display: table;
+            height: 100vh;
 
             h1 {
-                padding-top: 30vh;
+                top: 50vh;
+                display: table-cell;
+                vertical-align: middle;
             }
 
             iframe {
@@ -24,8 +24,13 @@ body {
                 margin: 0;
                 padding: 0;
             }
+        }
 
-
+        div {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            text-align: center;
         }
     }
 }

@@ -65,16 +65,21 @@ body {
     height: 25vh;
     margin: 0;
     padding: 0; }
+    body .row .framediv {
+      display: table;
+      height: 100vh; }
+      body .row .framediv h1 {
+        top: 50vh;
+        display: table-cell;
+        vertical-align: middle; }
+      body .row .framediv iframe {
+        height: 100vh;
+        margin: 0;
+        padding: 0; }
     body .row div {
       margin: 0;
       padding: 0;
       height: 100%;
       text-align: center; }
-      body .row div h1 {
-        padding-top: 30vh; }
-      body .row div iframe {
-        height: 100vh;
-        margin: 0;
-        padding: 0; }
 
 /*# sourceMappingURL=styles.css.map */
