@@ -28,6 +28,9 @@
   background-color: #323232;
   border: solid white 3px;
   border-radius: 20px; }
+  #nu-metal:hover {
+    background-color: rgba(50, 50, 50, 0.9);
+    transition: all 0.2s ease; }
 
 #drum-and-bass {
   background-color: green;

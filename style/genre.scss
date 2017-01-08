@@ -33,6 +33,11 @@
 	background-color: rgb(50, 50, 50);
 	border: solid white 3px;
 	border-radius: 20px;
+
+	&:hover {
+		background-color: rgba(50, 50, 50, 0.9);
+		transition: all 0.2s ease;
+	}
 }
 
 #drum-and-bass {
