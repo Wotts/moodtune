@@ -1,70 +1,116 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 #pop {
   background-color: #0044aa;
-  border: solid white 3px;
+  border: solid #181818 3px;
   border-radius: 20px; }
+  #pop:hover {
+    background-color: rgba(0, 68, 170, 0.7); }
+  #pop:active {
+    transform: scale(0.98, 0.98); }
 
 #jazz {
-  background-color: #6200a6;
-  border: solid white 3px;
+  background-color: #640c6f;
+  border: solid #181818 3px;
   border-radius: 20px; }
+  #jazz:hover {
+    background-color: rgba(100, 12, 111, 0.7); }
+  #jazz:active {
+    transform: scale(0.98, 0.98); }
 
 #chamber-pop {
-  background-color: #fbffc7;
-  border: solid white 3px;
+  background-color: #b1b861;
+  border: solid #181818 3px;
   border-radius: 20px; }
+  #chamber-pop:hover {
+    background-color: rgba(177, 184, 97, 0.7); }
+  #chamber-pop:active {
+    transform: scale(0.98, 0.98); }
 
 #progressive-metal {
   background-color: #960000;
-  border: solid white 3px;
+  border: solid #181818 3px;
   border-radius: 20px; }
+  #progressive-metal:hover {
+    background-color: rgba(150, 0, 0, 0.7); }
+  #progressive-metal:active {
+    transform: scale(0.98, 0.98); }
 
 #edm {
-  background-color: #8f9f25;
-  border: solid white 3px;
+  background-color: #647300;
+  border: solid #181818 3px;
   border-radius: 20px; }
+  #edm:hover {
+    background-color: rgba(100, 115, 0, 0.7); }
+  #edm:active {
+    transform: scale(0.98, 0.98); }
 
 #nu-metal {
   background-color: #323232;
-  border: solid white 3px;
+  border: solid #181818 3px;
   border-radius: 20px; }
   #nu-metal:hover {
-    background-color: rgba(50, 50, 50, 0.9);
-    transition: all 0.2s ease; }
+    background-color: rgba(50, 50, 50, 0.7); }
+  #nu-metal:active {
+    transform: scale(0.98, 0.98); }
 
 #drum-and-bass {
-  background-color: green;
-  border: solid white 3px;
+  background-color: #064e00;
+  border: solid #181818 3px;
   border-radius: 20px; }
+  #drum-and-bass:hover {
+    background-color: rgba(6, 78, 0, 0.7); }
+  #drum-and-bass:active {
+    transform: scale(0.98, 0.98); }
 
 #soul {
-  background-color: #83349d;
-  border: solid white 3px;
+  background-color: #601cb9;
+  border: solid #181818 3px;
   border-radius: 20px; }
+  #soul:hover {
+    background-color: rgba(96, 28, 185, 0.7); }
+  #soul:active {
+    transform: scale(0.98, 0.98); }
 
 #singer-songwriter {
   background-color: orange;
-  border: solid white 3px;
+  border: solid #181818 3px;
   border-radius: 20px; }
+  #singer-songwriter:hover {
+    background-color: rgba(255, 165, 0, 0.7); }
+  #singer-songwriter:active {
+    transform: scale(0.98, 0.98); }
 
 #rap {
   background-color: brown;
-  border: solid white 3px;
+  border: solid #181818 3px;
   border-radius: 20px; }
+  #rap:hover {
+    background-color: rgba(165, 42, 42, 0.7); }
+  #rap:active {
+    transform: scale(0.98, 0.98); }
 
 #rnb {
   background-color: #854f08;
-  border: solid white 3px;
+  border: solid #181818 3px;
   border-radius: 20px; }
+  #rnb:hover {
+    background-color: rgba(133, 79, 8, 0.7); }
+  #rnb:active {
+    transform: scale(0.98, 0.98); }
 
 #lounge {
-  background-color: #14655d;
-  border: solid white 3px;
+  background-color: #30a196;
+  border: solid #181818 3px;
   border-radius: 20px; }
+  #lounge:hover {
+    background-color: rgba(48, 161, 150, 0.7); }
+  #lounge:active {
+    transform: scale(0.98, 0.98); }
 
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background-color: #181818; }
   body .row {
     height: 25vh;
     margin: 0;
@@ -76,7 +122,8 @@ body {
         top: 50vh;
         display: table-cell;
         vertical-align: middle;
-        font-family: 'Montserrat', sans-serif; }
+        font-family: 'Montserrat', sans-serif;
+        color: #969696; }
       body .row .framediv iframe {
         height: 100vh;
         margin: 0;
@@ -85,6 +132,11 @@ body {
       margin: 0;
       padding: 0;
       height: 100%;
-      text-align: center; }
+      text-align: center;
+      transition: background-color 0.2s linear, transform 0.04s linear;
+      -o-transition: background-color 0.2s linear, transform 0.04s linear;
+      -ms-transition: background-color 0.2s linear, transform 0.04s linear;
+      -moz-transition: background-color 0.2s linear, transform 0.04s linear;
+      -webkit-transition: background-color 0.2s linear, transform 0.04s linear; }
 
 /*# sourceMappingURL=styles.css.map */

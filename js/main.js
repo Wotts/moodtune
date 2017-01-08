@@ -25,9 +25,20 @@ $(document).ready (function(){
             method: 'GET',
             url: "https://api.spotify.com/v1/search?q=%20genre:%22" + genre + "%22&type=artist&limit=50",
             success: artistSucces,
-            // error: error
+            error: whatifError
         });
 
     });
+
+	$(this).click(function() {
+        $(this).animate({
+            width: '-=3px',
+            height: '-=3px'
+        });
+	});
+
+    function whatifError() {
+        console.log(error);
+    }
 
 });
