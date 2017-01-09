@@ -12,6 +12,7 @@ body {
         padding: 0;
 
         .framediv {
+            overflow: hidden;
             display: table;
             height: 100vh;
 

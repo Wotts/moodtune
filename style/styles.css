@@ -116,6 +116,7 @@ body {
     margin: 0;
     padding: 0; }
     body .row .framediv {
+      overflow: hidden;
       display: table;
       height: 100vh; }
       body .row .framediv h1 {
